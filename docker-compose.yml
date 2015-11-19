@@ -1,0 +1,17 @@
+mongo:
+  container_name: edx-mongo
+  image: mongo
+  volumes:
+    - ./db:/data/db
+
+node:
+  container_name: edx-node
+  image: node
+  volumes:
+    - ./:/app
+  links:
+    - mongo
+  command: /bin/bash
+  working_dir: /app
+  tty: true
+  command: bash

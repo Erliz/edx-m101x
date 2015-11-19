@@ -1,0 +1,30 @@
+{
+  "name": "edx-m101x",
+  "version": "0.0.1",
+  "description": "Application for learning mongoDB using the MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erliz/edx-m101x.git"
+  },
+  "keywords": [
+    "edx",
+    "mean",
+    "mongo",
+    "learning"
+  ],
+  "author": "Stanislav Vetlovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erliz/edx-m101x/issues"
+  },
+  "homepage": "https://github.com/Erliz/edx-m101x#readme",
+  "dependencies": {
+    "mocha": "^2.3.4",
+    "mongodb": "^2.0.48",
+    "underscore": "^1.8.3"
+  }
+}
