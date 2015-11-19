@@ -4,7 +4,8 @@
   "description": "Application for learning mongoDB using the MEAN stack",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha test.js",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/Erliz/edx-m101x#readme",
   "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
     "mocha": "^2.3.4",
     "mongodb": "^2.0.48",
     "underscore": "^1.8.3"
